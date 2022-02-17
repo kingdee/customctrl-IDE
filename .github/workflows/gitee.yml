@@ -14,4 +14,4 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_PRIVATE_KEY }}
         with:
           source-repo: 'git@github.com:kdcloudone/customctrl-IDE.git'
-          destination-repo: 'git@gitee.com:kdcloudone/customctrl-IDE.git'
+          destination-repo: 'git@gitee.com:kdcloudone/customctrl-ide.git'
